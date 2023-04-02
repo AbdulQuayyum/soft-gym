@@ -7,5 +7,5 @@ import Banner from "./Images/banner.jpg"
 import Logo from "./Images/logo.png"
 
 export {
-    BodyPart, Equipment, Gym,Target, Banner, Logo
+    BodyPart, Equipment, Gym, Target, Banner, Logo
 }

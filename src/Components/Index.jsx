@@ -9,7 +9,7 @@ import HorizontalScrollbar from "./HorizontalScrollbar";
 import Loader from "./Loader";
 import Navbar from "./Navbar";
 import SearchExercises from "./SearchExercises";
-import SimilarExercies from "./SimilarExercies";
+import SimilarExercises from "./SimilarExercises";
 
 export {
     BodyPart,
@@ -23,5 +23,5 @@ export {
     Loader,
     Navbar,
     SearchExercises,
-    SimilarExercies
+    SimilarExercises
 }
