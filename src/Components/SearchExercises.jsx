@@ -12,7 +12,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         const FetchExercisesData = async () => {
             const bodyPartsData = await FetchData(`${import.meta.env.VITE_EXERCISEDB_URL}/exercises/bodyPartList`, ExerciseOptions);
 
-            console.log(bodyPartsData)
+            // console.log(bodyPartsData)
 
             setBodyParts(['all', ...bodyPartsData]);
         };
