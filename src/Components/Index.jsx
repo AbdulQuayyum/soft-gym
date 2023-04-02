@@ -1,6 +1,7 @@
 import BodyPart from "./BodyPart";
 import Detail from "./Detail";
 import ExerciseCard from "./ExerciseCard";
+import Exercises from "./Exercises";
 import ExerciseVideos from "./ExerciseVideos";
 import Footer from "./Footer";
 import HeroBanner from "./HeroBanner";
@@ -14,6 +15,7 @@ export {
     BodyPart,
     Detail,
     ExerciseCard,
+    Exercises,
     ExerciseVideos,
     Footer,
     HeroBanner,
