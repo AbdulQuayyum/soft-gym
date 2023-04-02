@@ -7,20 +7,20 @@ import EastRoundedIcon from '@mui/icons-material/EastRounded';
 import WestRoundedIcon from '@mui/icons-material/WestRounded';
 
 const LeftArrow = () => {
-    const { isFirstItemVisible, scrollPrev } = useContext(VisibilityContext);
+    const { scrollPrev } = useContext(VisibilityContext);
 
     return (
-        <Typography disabled={isFirstItemVisible} onClick={() => scrollPrev()} className="right-arrow">
+        <Typography onClick={() => scrollPrev()} className="right-arrow">
             < WestRoundedIcon fontSize='large' />
         </Typography>
     );
 };
 
 const RightArrow = () => {
-    const { isLastItemVisible, scrollNext } = useContext(VisibilityContext);
+    const { scrollNext } = useContext(VisibilityContext);
 
     return (
-        <Typography disabled={isLastItemVisible} onClick={() => scrollNext()} className="left-arrow">
+        <Typography onClick={() => scrollNext()} className="left-arrow">
             < EastRoundedIcon fontSize='large' />
         </Typography>
     );
